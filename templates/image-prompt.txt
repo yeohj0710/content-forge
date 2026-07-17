@@ -2,7 +2,9 @@
 [크기/비율] (예: 2048x2048, 1:1)
 [스타일] (스타일 키워드, 조명, 무드, 컬러 톤 — blueprint 토큰과 일치)
 [구도/여백] (텍스트가 올라갈 영역을 비워두라는 지시)
+[첨부 에셋] (함께 업로드할 파일 + 역할. 없으면 "없음". 파일은 G##-*-attachments/ 폴더에 세팅됨)
+(예: attachments/ref-01-product.png — 합성 대상 / attachments/ref-02-mood.jpg — 스타일 참고)
 [프롬프트]
-(실제 생성 프롬프트 전문 — 영어 권장)
+(실제 생성 프롬프트 전문 — 영어 권장. 첨부가 있으면 본문에서 각 첨부의 역할을 명시)
 [네거티브/금지]
 no text, no letters, no typography, no logos, no watermarks, no captions

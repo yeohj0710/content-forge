@@ -13,6 +13,7 @@ YYYYMMDD-작업명/
 │   ├── provided/      사람이 수급한 원본 에셋 (P##)
 │   ├── generated/     GPT Image 생성 결과 (G##)
 │   └── prompts/       생성 프롬프트 txt (G##/V##, 이미지·클립당 1개)
+│       └── G##-*-attachments/  프롬프트와 함께 업로드할 첨부 에셋 (에이전트가 세팅)
 ├── edit-guide.md      (영상 트랙) 편집 가이드
 └── output/            최종 export / clips/
 ```
