@@ -1,0 +1,8 @@
+# 작업 폴더 — 클라이언트 에셋·대용량 산출물은 저장소에 올리지 않는다
+projects/*
+!projects/README.md
+
+# OS / editor
+Thumbs.db
+.DS_Store
+desktop.ini

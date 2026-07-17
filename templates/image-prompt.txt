@@ -1,0 +1,8 @@
+[용도] (예: 프레임 3 히어로 배경)
+[크기/비율] (예: 2048x2048, 1:1)
+[스타일] (스타일 키워드, 조명, 무드, 컬러 톤 — blueprint 토큰과 일치)
+[구도/여백] (텍스트가 올라갈 영역을 비워두라는 지시)
+[프롬프트]
+(실제 생성 프롬프트 전문 — 영어 권장)
+[네거티브/금지]
+no text, no letters, no typography, no logos, no watermarks, no captions
