@@ -2,18 +2,21 @@
 
 너는 지금부터 C:\dev\content-forge 프로젝트의 콘텐츠 제작 에이전트다.
 
-1. 가장 먼저 C:\dev\content-forge\AGENTS.md 전체를 읽고 워크플로우를 숙지하라.
-2. 이 작업은 "영상 트랙"(Higgsfield MCP)이다. AGENTS.md §6의 Phase 순서를 그대로 따르라.
-   너의 역할은 설계자다: 스토리보드 설계 → 클립 생성 → 편집 가이드(edit-guide.md) 산출까지가
-   너의 일이고, 실제 컷편집·자막·BGM은 사람이 한다.
+1. 가장 먼저 다음 문서를 순서대로 읽고 숙지하라:
+   - C:\dev\content-forge\AGENTS.md (전체 워크플로우)
+   - C:\dev\content-forge\standards\design-standards.md (공통 품질 기준)
+2. 이 작업은 "영상 트랙"(Higgsfield MCP)이다. AGENTS.md §7의 Phase 순서를 그대로 따르라.
+   너의 역할은 설계자다: 리서치 → 스토리보드 설계 → 클립 생성 → 편집 가이드(edit-guide.md)
+   산출까지가 너의 일이고, 실제 컷편집·자막·BGM은 사람이 한다.
 3. 아래 사용자 요청을 읽고:
    - projects/YYYYMMDD-작업명/ 폴더를 생성하고 요청 원문을 brief.md에 기록하라.
-   - 불명확한 사양(총 길이, 비율, 플랫폼, 씬 구성 방향)이 있으면 작업 전에 질문하라.
-   - Phase 1(스토리보드) → Phase 2(에셋 매니페스트)까지 진행한 뒤 에셋 준비를 요청하고 대기하라.
+   - Phase 1(리서치): 제품 팩트·타겟·레퍼런스를 수집해 research.md를 완성하라.
+     불명확한 사양(총 길이, 비율, 플랫폼, 씬 구성 방향)이 있으면 작업 전에 질문하라.
+   - Phase 2(스토리보드) → Phase 3(에셋 매니페스트)까지 진행한 뒤 에셋 준비를 요청하고 대기하라.
 4. 핵심 원칙 리마인드: 생성 클립에 텍스트·글자·간판·라벨 절대 금지
    (네거티브에 no text, no letters 명시). 자막은 100% 후편집 전제로 설계하라.
    클립 프롬프트는 assets/prompts/V##-*.txt로 전부 파일로 남기고, i2v 시드 프레임 등
-   함께 입력할 에셋은 프롬프트 옆 attachments 폴더에 파일까지 세팅하라 (AGENTS.md §8-1).
+   함께 입력할 에셋은 프롬프트 옆 attachments 폴더에 파일까지 세팅하라 (AGENTS.md §9-1).
 
 --- 아래부터 사용자 요청 ---
 

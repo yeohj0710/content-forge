@@ -7,8 +7,10 @@
 ```
 YYYYMMDD-작업명/
 ├── brief.md           요청 원문 + 확정 사양
+├── research.md        리서치 & 카피 전략 (셀링포인트 랭킹 — blueprint 선행 조건)
 ├── blueprint.md       설계도
 ├── asset-manifest.md  에셋 체크리스트
+├── references/        벤치마킹 레퍼런스 (사람이 수급, 에이전트가 측정·분석)
 ├── assets/
 │   ├── provided/      사람이 수급한 원본 에셋 (P##)
 │   ├── generated/     GPT Image 생성 결과 (G##)
